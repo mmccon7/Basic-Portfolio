@@ -1,0 +1,46 @@
+
+
+#myname {
+	width: 300px;
+    background: #4aaaa5;
+    padding: 25px;
+    margin: 25px;
+    font-size: 23pt;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navBar {
+	float: right;
+	color: #777777;
+	padding: 25px;
+	margin: 25px;
+	font-size: 14pt;
+	border-right: .5px solid #777777;
+	border-width: 1px;
+}
+	
+h2 {
+	font-size: 21pt;
+	color: #4aaaa5;
+	font-weight: bold;
+	text-indent: 50px;
+}
+
+.about {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+img {
+	width: 200px;
+	height: 300px;
+	padding: 25px;
+	margin: 25px;
+}
+
+
+
+
