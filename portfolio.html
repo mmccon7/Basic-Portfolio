@@ -3,42 +3,61 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <title>McConaghie</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
+
 <body>
-
-<div id="myname">
-<h1>Matthew McConaghie</h1>
-</div>
-
-	<div class="navBar">
-		<p><a href="contact.html">Contact</a></p>
+<nav class="header">
+	<div class="myname">
+	<h1>Matthew McConaghie</h1>
 	</div>
 
-	<div class="navBar">
-		<p><a href="portfolio.html">Portfolio</a></p>
+	<div class="links">
+		<ul id="list">
+			<li><a href="index.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+
+
+<section class="container">
+	<div class="portfolio">
+		<h2>Portfolio</h2>
+				<p class="pp">
+				<img id="nature" src="assets/images/nature.jpg" alt="Nature Pic">
+				<br>Cat Mouse Game<br><br>
+				<img id="airplane" src="assets/images/airplane.jpg" alt="Airplane">
+				<br>Student Profile<br><br>
+				<img id="technology" src="assets/images/technology.jpg" alt="Technology">
+				<br>Company Website</p><br><br>
 	</div>
 
-	<div class="navBar">
-		<p><a href="index.html">About</a></p>
-	</div>
+	<aside class="sidebar">
+		<h3>Connect with Me</h3>
+		<a href="#" alt="github">
+			<img id="logos" src="assets/images/githublogo.png">
+		</a>
+		<a href="#" alt="linkedin">
+			<img id="logos" src="assets/images/linkedinlogo.png">
+		</a>
+		<a href="#" alt="stackoverflow">
+			<img id="logos" src="assets/images/stackoverflowlogo.png">
+		</a>
+	</aside>
 
-<h2>Portfolio</h2>
-
-<p>Cat Mouse Game</p>
-<p>Student Profile</p>
-<p>First Website</p>
-<p>Company Website</p>
-<p>First App</p>
-
-
-<h3>Connect with Me</h3>
-
-<p>© Copyright 2017 Matthew McConaghie</p>	
-
+</section>
 
 </body>
+
+<footer>
+	<div id="copyright">
+© Copyright 2017 Matthew McConaghie
+	</div>
+</footer>
+
 </html>

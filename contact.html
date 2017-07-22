@@ -3,51 +3,69 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact Me</title>
+  <title>McConaghie</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
+
 <body>
-
-<div id="myname">
-<h1>Matthew McConaghie</h1>
-</div>
-
-	<div class="navBar">
-		<p><a href="contact.html">Contact</a></p>
+<nav class="header">
+	<div class="myname">
+	<h1>Matthew McConaghie</h1>
 	</div>
 
-	<div class="navBar">
-		<p><a href="portfolio.html">Portfolio</a></p>
+	<div class="links">
+		<ul id="list">
+			<li><a href="index.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+<section class="container">
+	<div class="contact">
+	<h2>Contact</h2>
+		<p>
+		<div class="contactform">
+		  <form action="/action_page.php">
+
+		    <label for="name">Name</label><br>
+		    <input type="text" id="yourname" name="firstlast" placeholder="John Smith">
+		<br>
+		    <label for="email">Email</label><br>
+		    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+		<br>
+		    <label for="message">Message</label><br>
+		    <input type="text" id="message" name="message">
+		<br>
+		    <input type="submit" id="submit" value="Submit">
+			</form>
+		</div>
+		</p>
 	</div>
 
-	<div class="navBar">
-		<p><a href="index.html">About</a></p>
-	</div>	
+	<aside class="sidebar">
+		<h3>Connect with Me</h3>
+		<a href="#" alt="github">
+			<img id="logos" src="assets/images/githublogo.png">
+		</a>
+		<a href="#" alt="linkedin">
+			<img id="logos" src="assets/images/linkedinlogo.png">
+		</a>
+		<a href="#" alt="stackoverflow">
+			<img id="logos" src="assets/images/stackoverflowlogo.png">
+		</a>
+	</aside>
 
-<h2>Contact</h2>
-
-<div class="contactform">
-  <form action="/action_page.php">
-
-    <label for="name">Name</label>
-    <input type="text" id="name" name="firstlast" placeholder="John Smith">
-
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="example@gmail.com">
-
-    <label for="message">Message</label>
-    <input type="text" id="message" name="message">
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-
-<h3>Connect with Me</h3>
-
-<p>© Copyright 2017 Matthew McConaghie</p>
+</section>
 
 </body>
+
+<footer>
+	<div id="copyright">
+© Copyright 2017 Matthew McConaghie
+	</div>
+</footer>
+
 </html>
