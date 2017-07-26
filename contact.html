@@ -1,71 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-
 <head>
   <meta charset="UTF-8">
-  <title>McConaghie</title>
+  <title>Contact | McConaghie</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
-
 <body>
-<nav class="header">
-	<div class="myname">
-	<h1>Matthew McConaghie</h1>
-	</div>
-
-	<div class="links">
-		<ul id="list">
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</div>
-</nav>
-<section class="container">
-	<div class="contact">
-	<h2>Contact</h2>
-		<p>
-		<div class="contactform">
-		  <form action="/action_page.php">
-
-		    <label for="name">Name</label><br>
-		    <input type="text" id="yourname" name="firstlast" placeholder="John Smith">
-		<br>
-		    <label for="email">Email</label><br>
-		    <input type="text" id="email" name="email" placeholder="example@gmail.com">
-		<br>
-		    <label for="message">Message</label><br>
-		    <input type="text" id="message" name="message">
-		<br>
-		    <input type="submit" id="submit" value="Submit">
-			</form>
-		</div>
-		</p>
-	</div>
-
-	<aside class="sidebar">
-		<h3>Connect with Me</h3>
-		<a href="#" alt="github">
-			<img id="logos" src="assets/images/githublogo.png">
-		</a>
-		<a href="#" alt="linkedin">
-			<img id="logos" src="assets/images/linkedinlogo.png">
-		</a>
-		<a href="#" alt="stackoverflow">
-			<img id="logos" src="assets/images/stackoverflowlogo.png">
-		</a>
-	</aside>
-
-</section>
-
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Matthew McConaghie</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+    </section>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="#"><img src="assets/images/githublogo.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedinlogo.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflowlogo.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Matthew McConaghie
+    </div>
+  </footer>
 </body>
-
-<footer>
-	<div id="copyright">
-© Copyright 2017 Matthew McConaghie
-	</div>
-</footer>
-
 </html>
